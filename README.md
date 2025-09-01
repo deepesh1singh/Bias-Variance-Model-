@@ -208,15 +208,6 @@ project/
 - Visualization of results
 - Model interpretation and feature importance
 
-## Business Applications
-
-This model can be used by telecommunications companies to:
-
-1. **Predictive Analytics**: Identify customers at risk of churning
-2. **Customer Retention**: Implement targeted retention strategies
-3. **Resource Allocation**: Focus retention efforts on high-risk customers
-4. **Service Improvement**: Understand factors contributing to customer dissatisfaction
-
 ## Limitations and Considerations
 
 1. **Class Imbalance**: 26.54% churn rate requires careful handling
@@ -224,26 +215,13 @@ This model can be used by telecommunications companies to:
 3. **Overfitting**: Training performance significantly better than validation
 4. **Data Quality**: Missing values and data type inconsistencies
 
-## Future Improvements
-
-1. **Advanced Sampling**: Implement SMOTE or other balancing techniques
-2. **Feature Selection**: Reduce dimensionality using feature importance
-3. **Ensemble Methods**: Combine multiple algorithms for better performance
-4. **Real-time Deployment**: Convert to production-ready API
-
 ## References
 
 - **Dataset Source**: [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
 - **IBM Documentation**: [Telco Customer Churn Analysis](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113)
 - **XGBoost Documentation**: [Official XGBoost Guide](https://xgboost.readthedocs.io/)
 
-## Contact Information
-
-**Project**: Programming Assignment 2 - XGBoost Implementation  
-**Course**: CS30020  
-**Roll Number**: 22CS30020  
-**Technology**: Machine Learning, XGBoost, Python, Jupyter Notebook
-
 ---
 
 *This project demonstrates the implementation of XGBoost for customer churn prediction, showcasing data preprocessing, model development, and performance evaluation in a real-world business context.*
+
